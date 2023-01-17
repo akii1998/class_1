@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tic-tac{
+  background-color:aqua;
+  padding: 30px;
+  border: 1px solid black;
+}
+.game-box{
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+   align-items: center;
+  flex-direction: column;
+  gap:60px;
+  padding: 70px;
+  margin: 50px;
+  overflow:hidden;
+  cursor: pointer;
+
+}
