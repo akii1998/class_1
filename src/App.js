@@ -28,6 +28,8 @@ import Navbar from "./Routing/Navbar";
 import { TicGame } from "./TIC_TAC/TicGame";
 import { TicTacGame } from "./TIC_TAC_TOC/TicTacGame";
 import Signup from './Loginpage/Signup'
+import FetchUrl from "./CustomFetch/FetchUrl";
+import DisplayOnScreen from "./ErrorHandleFolder/DisplayOnScreen";
 
 const fname = createContext();
 const lname = createContext();
@@ -57,7 +59,7 @@ function App() {
       {/* <MainList/> */}
       {/* <UsedCounterHook/> */}
       {/* <UseHookAkash/> */}
-       <DisplayError />
+       {/* <DisplayError /> */}
       {/* <div>Akash</div>
       <div>Gupta</div> */} 
       {/* <fname.Provider value={"Akash"}>
@@ -83,6 +85,8 @@ function App() {
       <TicGame/>
        <h1>We have to used another approach</h1>
       <TicTacGame/>  */}
+      {/* <FetchUrl/> */}
+      <DisplayOnScreen/>
     </div>
   );
 }

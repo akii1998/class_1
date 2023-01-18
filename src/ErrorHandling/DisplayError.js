@@ -6,19 +6,19 @@ import FileTwo from './FileTwo'
 const DisplayError = () => {
   return (
     <>
- <ErrorHandling>
+ {/* <ErrorHandling>
     <FileTwo/>
- </ErrorHandling>
- <ErrorHandling>
+ </ErrorHandling> */}
+  <ErrorHandling>
     <FileOne/>
- </ErrorHandling>
- <ErrorHandling>
+ </ErrorHandling> 
+ {/* <ErrorHandling>
  <FileTwo/>
     <FileOne/>
  </ErrorHandling>
  <ErrorHandling>
     <FileTwo/>
- </ErrorHandling>
+ </ErrorHandling> */}
 
 
 
